@@ -1,0 +1,16 @@
+CREATE TABLE CUSTOMERS (
+    CUSTOMER_ID     NUMBER PRIMARY KEY,
+    NAME            VARCHAR2(100),
+    AGE             NUMBER(3),
+    BALANCE         NUMBER(12, 2),
+    ISVIP           VARCHAR2(5),  
+    LOAN_ID         NUMBER,
+    INTEREST_RATE   NUMBER(5, 2),
+    DUE_DATE        DATE
+);
+INSERT INTO customers VALUES(1,'Rajesh',23,1000,'False',101,5.5,SYSDATE+10);
+INSERT INTO customers VALUES(2,'Suresh',65,10000,'True',102,5.2,SYSDATE+40);
+INSERT INTO customers VALUES(3,'Ramesh',62,50000,'True',103,5.2,SYSDATE+5);
+INSERT INTO customers VALUES(4,'Sai',32,20000,'False',104,4.2,SYSDATE+25);
+INSERT INTO customers VALUES(5,'Gukesh',18,100000,'False',106,3.2,SYSDATE+30);
+COMMIT;
