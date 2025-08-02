@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+  padding: 50px;
+}
+.mystyle1, .st2,.v1{
+  padding: 20px;
+  height: 400px;
+}
+.mystyle1 {
+  border-right: 4px solid green;
+}
+.st2{
+  border-right: 4px solid green;
+}
+.v1{
+    border-right: 4px solid green;
+}
+h1{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+}
